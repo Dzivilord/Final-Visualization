@@ -1,0 +1,1192 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.1011.1414                               -->
+<workbook original-version='18.1' source-build='2024.2.4 (20242.24.1011.1414)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Data (Data_final)' inline='true' name='federated.1oh31oy19yjq3t12ybyji0t5067i' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Data_final' name='excel-direct.10becro0p7w4ur13a8o8a0q6pno7'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/HK1_2025/Data_Visualization/Final-Visualization/dataset/Data_final.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.10becro0p7w4ur13a8o8a0q6pno7' name='Data' table='[Data$]' type='table'>
+          <columns gridOrigin='A1:AN1438:no:A1:AN1438:0' header='yes' outcome='6'>
+            <column datatype='string' name='Miền' ordinal='0' />
+            <column datatype='string' name='Vùng' ordinal='1' />
+            <column datatype='string' name='Tỉnh' ordinal='2' />
+            <column datatype='datetime' date-parse-format='yyyy' name='Năm' ordinal='3' />
+            <column datatype='integer' name='Dân số' ordinal='4' />
+            <column datatype='integer' name='Dân số nam' ordinal='5' />
+            <column datatype='integer' name='Dân số nữ' ordinal='6' />
+            <column datatype='integer' name='Dân số thành thị' ordinal='7' />
+            <column datatype='integer' name='Dân số nông thôn' ordinal='8' />
+            <column datatype='integer' name='Số lượng trang trại' ordinal='9' />
+            <column datatype='integer' name='Diện tích trồng lúa' ordinal='10' />
+            <column datatype='integer' name='Sản lượng lúa' ordinal='11' />
+            <column datatype='integer' name='Diện tích trồng ngô' ordinal='12' />
+            <column datatype='integer' name='Sản lượng ngô' ordinal='13' />
+            <column datatype='integer' name='Diện tích trồng khoai lang' ordinal='14' />
+            <column datatype='integer' name='Sản lượng khoai lang' ordinal='15' />
+            <column datatype='integer' name='Số lượng trâu' ordinal='16' />
+            <column datatype='integer' name='Số lượng bò' ordinal='17' />
+            <column datatype='integer' name='Số lượng lợn' ordinal='18' />
+            <column datatype='integer' name='Số lượng gia cầm' ordinal='19' />
+            <column datatype='integer' name='Diện tích rừng trồng mới' ordinal='20' />
+            <column datatype='integer' name='Sản lượng gỗ khai thác' ordinal='21' />
+            <column datatype='integer' name='Diện tích nuôi trồng thủy sản' ordinal='22' />
+            <column datatype='integer' name='Sản lượng thủy sản' ordinal='23' />
+            <column datatype='integer' name='Số lượt vận chuyển hành khách' ordinal='24' />
+            <column datatype='integer' name='Số lượt luân chuyển hành khách' ordinal='25' />
+            <column datatype='integer' name='Khối lượng hàng hóa vận chuyển' ordinal='26' />
+            <column datatype='integer' name='Khối lượng hàng hóa luân chuyển' ordinal='27' />
+            <column datatype='integer' name='Số trường tiểu học' ordinal='28' />
+            <column datatype='integer' name='Số trường thcs' ordinal='29' />
+            <column datatype='integer' name='Số trường thpt' ordinal='30' />
+            <column datatype='integer' name='Sô giáo viên tiểu học' ordinal='31' />
+            <column datatype='integer' name='Sô giáo viên thcs' ordinal='32' />
+            <column datatype='integer' name='Sô giáo viên thpt' ordinal='33' />
+            <column datatype='integer' name='Số học sinh tiểu học' ordinal='34' />
+            <column datatype='integer' name='Số học sinh thcs' ordinal='35' />
+            <column datatype='integer' name='Số học sinh thpt' ordinal='36' />
+            <column datatype='integer' name='Số bệnh viện' ordinal='37' />
+            <column datatype='integer' name='Số trạm y tế' ordinal='38' />
+            <column datatype='integer' name='Số bác sĩ' ordinal='39' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.10becro0p7w4ur13a8o8a0q6pno7' name='Data' table='[Data$]' type='table'>
+          <columns gridOrigin='A1:AN1438:no:A1:AN1438:0' header='yes' outcome='6'>
+            <column datatype='string' name='Miền' ordinal='0' />
+            <column datatype='string' name='Vùng' ordinal='1' />
+            <column datatype='string' name='Tỉnh' ordinal='2' />
+            <column datatype='datetime' date-parse-format='yyyy' name='Năm' ordinal='3' />
+            <column datatype='integer' name='Dân số' ordinal='4' />
+            <column datatype='integer' name='Dân số nam' ordinal='5' />
+            <column datatype='integer' name='Dân số nữ' ordinal='6' />
+            <column datatype='integer' name='Dân số thành thị' ordinal='7' />
+            <column datatype='integer' name='Dân số nông thôn' ordinal='8' />
+            <column datatype='integer' name='Số lượng trang trại' ordinal='9' />
+            <column datatype='integer' name='Diện tích trồng lúa' ordinal='10' />
+            <column datatype='integer' name='Sản lượng lúa' ordinal='11' />
+            <column datatype='integer' name='Diện tích trồng ngô' ordinal='12' />
+            <column datatype='integer' name='Sản lượng ngô' ordinal='13' />
+            <column datatype='integer' name='Diện tích trồng khoai lang' ordinal='14' />
+            <column datatype='integer' name='Sản lượng khoai lang' ordinal='15' />
+            <column datatype='integer' name='Số lượng trâu' ordinal='16' />
+            <column datatype='integer' name='Số lượng bò' ordinal='17' />
+            <column datatype='integer' name='Số lượng lợn' ordinal='18' />
+            <column datatype='integer' name='Số lượng gia cầm' ordinal='19' />
+            <column datatype='integer' name='Diện tích rừng trồng mới' ordinal='20' />
+            <column datatype='integer' name='Sản lượng gỗ khai thác' ordinal='21' />
+            <column datatype='integer' name='Diện tích nuôi trồng thủy sản' ordinal='22' />
+            <column datatype='integer' name='Sản lượng thủy sản' ordinal='23' />
+            <column datatype='integer' name='Số lượt vận chuyển hành khách' ordinal='24' />
+            <column datatype='integer' name='Số lượt luân chuyển hành khách' ordinal='25' />
+            <column datatype='integer' name='Khối lượng hàng hóa vận chuyển' ordinal='26' />
+            <column datatype='integer' name='Khối lượng hàng hóa luân chuyển' ordinal='27' />
+            <column datatype='integer' name='Số trường tiểu học' ordinal='28' />
+            <column datatype='integer' name='Số trường thcs' ordinal='29' />
+            <column datatype='integer' name='Số trường thpt' ordinal='30' />
+            <column datatype='integer' name='Sô giáo viên tiểu học' ordinal='31' />
+            <column datatype='integer' name='Sô giáo viên thcs' ordinal='32' />
+            <column datatype='integer' name='Sô giáo viên thpt' ordinal='33' />
+            <column datatype='integer' name='Số học sinh tiểu học' ordinal='34' />
+            <column datatype='integer' name='Số học sinh thcs' ordinal='35' />
+            <column datatype='integer' name='Số học sinh thpt' ordinal='36' />
+            <column datatype='integer' name='Số bệnh viện' ordinal='37' />
+            <column datatype='integer' name='Số trạm y tế' ordinal='38' />
+            <column datatype='integer' name='Số bác sĩ' ordinal='39' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AN1438:no:A1:AN1438:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Miền</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Miền]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Miền</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vùng</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Vùng]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Vùng</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tỉnh</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Tỉnh]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Tỉnh</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Năm</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Năm]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Năm</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dân số</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dân số]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Dân số</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dân số nam</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dân số nam]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Dân số nam</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dân số nữ</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dân số nữ]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Dân số nữ</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dân số thành thị</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dân số thành thị]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Dân số thành thị</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dân số nông thôn</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dân số nông thôn]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Dân số nông thôn</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Số lượng trang trại</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Số lượng trang trại]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Số lượng trang trại</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Diện tích trồng lúa</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Diện tích trồng lúa]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Diện tích trồng lúa</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sản lượng lúa</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sản lượng lúa]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Sản lượng lúa</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Diện tích trồng ngô</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Diện tích trồng ngô]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Diện tích trồng ngô</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sản lượng ngô</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sản lượng ngô]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Sản lượng ngô</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Diện tích trồng khoai lang</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Diện tích trồng khoai lang]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Diện tích trồng khoai lang</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sản lượng khoai lang</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sản lượng khoai lang]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Sản lượng khoai lang</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Số lượng trâu</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Số lượng trâu]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Số lượng trâu</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Số lượng bò</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Số lượng bò]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Số lượng bò</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Số lượng lợn</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Số lượng lợn]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Số lượng lợn</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Số lượng gia cầm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Số lượng gia cầm]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Số lượng gia cầm</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Diện tích rừng trồng mới</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Diện tích rừng trồng mới]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Diện tích rừng trồng mới</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sản lượng gỗ khai thác</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sản lượng gỗ khai thác]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Sản lượng gỗ khai thác</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Diện tích nuôi trồng thủy sản</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Diện tích nuôi trồng thủy sản]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Diện tích nuôi trồng thủy sản</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sản lượng thủy sản</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sản lượng thủy sản]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Sản lượng thủy sản</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Số lượt vận chuyển hành khách</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Số lượt vận chuyển hành khách]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Số lượt vận chuyển hành khách</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Số lượt luân chuyển hành khách</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Số lượt luân chuyển hành khách]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Số lượt luân chuyển hành khách</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Khối lượng hàng hóa vận chuyển</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Khối lượng hàng hóa vận chuyển]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Khối lượng hàng hóa vận chuyển</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Khối lượng hàng hóa luân chuyển</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Khối lượng hàng hóa luân chuyển]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Khối lượng hàng hóa luân chuyển</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Số trường tiểu học</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Số trường tiểu học]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Số trường tiểu học</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Số trường thcs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Số trường thcs]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Số trường thcs</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Số trường thpt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Số trường thpt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Số trường thpt</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sô giáo viên tiểu học</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sô giáo viên tiểu học]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Sô giáo viên tiểu học</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sô giáo viên thcs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sô giáo viên thcs]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Sô giáo viên thcs</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sô giáo viên thpt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sô giáo viên thpt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Sô giáo viên thpt</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Số học sinh tiểu học</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Số học sinh tiểu học]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Số học sinh tiểu học</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Số học sinh thcs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Số học sinh thcs]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Số học sinh thcs</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Số học sinh thpt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Số học sinh thpt]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Số học sinh thpt</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Số bệnh viện</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Số bệnh viện]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Số bệnh viện</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Số trạm y tế</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Số trạm y tế]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Số trạm y tế</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Số bác sĩ</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Số bác sĩ]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Số bác sĩ</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Tỉ lệ vận chuyển hành khách' datatype='real' name='[Calculation_813744182608723968]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Dân số]/[Số lượt vận chuyển hành khách]' />
+      </column>
+      <column datatype='integer' name='[Khối lượng hàng hóa luân chuyển]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Khối lượng hàng hóa vận chuyển]' role='measure' type='quantitative' />
+      <column aggregation='CountD' datatype='string' name='[Tỉnh]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <semantic-values semantic-role='[State].[Name]'>
+          <semantic-value key='&quot;TP.Hồ Chí Minh&quot;' value='&quot;Thanh pho Ho Chi Minh&quot;' />
+        </semantic-values>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Data' datatype='table' name='[__tableau_internal_object_id__].[Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D]' role='measure' type='quantitative' />
+      <column-instance column='[Khối lượng hàng hóa luân chuyển]' derivation='Sum' name='[sum:Khối lượng hàng hóa luân chuyển:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Khối lượng hàng hóa vận chuyển]' derivation='Sum' name='[sum:Khối lượng hàng hóa vận chuyển:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1oh31oy19yjq3t12ybyji0t5067i].[sum:Khối lượng hàng hóa luân chuyển:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1oh31oy19yjq3t12ybyji0t5067i].[sum:Khối lượng hàng hóa vận chuyển:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Viet Nam&quot;' />
+        <semantic-value key='[State].[Name]' value='%null%' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Miền' />
+        <field-sort-custom-order field='Vùng' />
+        <field-sort-custom-order field='Tỉnh' />
+        <field-sort-custom-order field='Năm' />
+        <field-sort-custom-order field='Dân số' />
+        <field-sort-custom-order field='Calculation_813744182608723968' />
+        <field-sort-custom-order field='Dân số nam' />
+        <field-sort-custom-order field='Dân số nữ' />
+        <field-sort-custom-order field='Dân số thành thị' />
+        <field-sort-custom-order field='Dân số nông thôn' />
+        <field-sort-custom-order field='Số lượng trang trại' />
+        <field-sort-custom-order field='Diện tích trồng lúa' />
+        <field-sort-custom-order field='Sản lượng lúa' />
+        <field-sort-custom-order field='Diện tích trồng ngô' />
+        <field-sort-custom-order field='Sản lượng ngô' />
+        <field-sort-custom-order field='Diện tích trồng khoai lang' />
+        <field-sort-custom-order field='Sản lượng khoai lang' />
+        <field-sort-custom-order field='Số lượng trâu' />
+        <field-sort-custom-order field='Số lượng bò' />
+        <field-sort-custom-order field='Số lượng lợn' />
+        <field-sort-custom-order field='Số lượng gia cầm' />
+        <field-sort-custom-order field='Diện tích rừng trồng mới' />
+        <field-sort-custom-order field='Sản lượng gỗ khai thác' />
+        <field-sort-custom-order field='Diện tích nuôi trồng thủy sản' />
+        <field-sort-custom-order field='Sản lượng thủy sản' />
+        <field-sort-custom-order field='Số lượt vận chuyển hành khách' />
+        <field-sort-custom-order field='Số lượt luân chuyển hành khách' />
+        <field-sort-custom-order field='Khối lượng hàng hóa vận chuyển' />
+        <field-sort-custom-order field='Khối lượng hàng hóa luân chuyển' />
+        <field-sort-custom-order field='Số trường tiểu học' />
+        <field-sort-custom-order field='Số trường thcs' />
+        <field-sort-custom-order field='Số trường thpt' />
+        <field-sort-custom-order field='Sô giáo viên tiểu học' />
+        <field-sort-custom-order field='Sô giáo viên thcs' />
+        <field-sort-custom-order field='Sô giáo viên thpt' />
+        <field-sort-custom-order field='Số học sinh tiểu học' />
+        <field-sort-custom-order field='Số học sinh thcs' />
+        <field-sort-custom-order field='Số học sinh thpt' />
+        <field-sort-custom-order field='Số bệnh viện' />
+        <field-sort-custom-order field='Số trạm y tế' />
+        <field-sort-custom-order field='Số bác sĩ' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Data' id='Data_AFA0CBDB30D245D2A78EFB4BA4D5C71D'>
+            <properties context=''>
+              <relation connection='excel-direct.10becro0p7w4ur13a8o8a0q6pno7' name='Data' table='[Data$]' type='table'>
+                <columns gridOrigin='A1:AN1438:no:A1:AN1438:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Miền' ordinal='0' />
+                  <column datatype='string' name='Vùng' ordinal='1' />
+                  <column datatype='string' name='Tỉnh' ordinal='2' />
+                  <column datatype='datetime' date-parse-format='yyyy' name='Năm' ordinal='3' />
+                  <column datatype='integer' name='Dân số' ordinal='4' />
+                  <column datatype='integer' name='Dân số nam' ordinal='5' />
+                  <column datatype='integer' name='Dân số nữ' ordinal='6' />
+                  <column datatype='integer' name='Dân số thành thị' ordinal='7' />
+                  <column datatype='integer' name='Dân số nông thôn' ordinal='8' />
+                  <column datatype='integer' name='Số lượng trang trại' ordinal='9' />
+                  <column datatype='integer' name='Diện tích trồng lúa' ordinal='10' />
+                  <column datatype='integer' name='Sản lượng lúa' ordinal='11' />
+                  <column datatype='integer' name='Diện tích trồng ngô' ordinal='12' />
+                  <column datatype='integer' name='Sản lượng ngô' ordinal='13' />
+                  <column datatype='integer' name='Diện tích trồng khoai lang' ordinal='14' />
+                  <column datatype='integer' name='Sản lượng khoai lang' ordinal='15' />
+                  <column datatype='integer' name='Số lượng trâu' ordinal='16' />
+                  <column datatype='integer' name='Số lượng bò' ordinal='17' />
+                  <column datatype='integer' name='Số lượng lợn' ordinal='18' />
+                  <column datatype='integer' name='Số lượng gia cầm' ordinal='19' />
+                  <column datatype='integer' name='Diện tích rừng trồng mới' ordinal='20' />
+                  <column datatype='integer' name='Sản lượng gỗ khai thác' ordinal='21' />
+                  <column datatype='integer' name='Diện tích nuôi trồng thủy sản' ordinal='22' />
+                  <column datatype='integer' name='Sản lượng thủy sản' ordinal='23' />
+                  <column datatype='integer' name='Số lượt vận chuyển hành khách' ordinal='24' />
+                  <column datatype='integer' name='Số lượt luân chuyển hành khách' ordinal='25' />
+                  <column datatype='integer' name='Khối lượng hàng hóa vận chuyển' ordinal='26' />
+                  <column datatype='integer' name='Khối lượng hàng hóa luân chuyển' ordinal='27' />
+                  <column datatype='integer' name='Số trường tiểu học' ordinal='28' />
+                  <column datatype='integer' name='Số trường thcs' ordinal='29' />
+                  <column datatype='integer' name='Số trường thpt' ordinal='30' />
+                  <column datatype='integer' name='Sô giáo viên tiểu học' ordinal='31' />
+                  <column datatype='integer' name='Sô giáo viên thcs' ordinal='32' />
+                  <column datatype='integer' name='Sô giáo viên thpt' ordinal='33' />
+                  <column datatype='integer' name='Số học sinh tiểu học' ordinal='34' />
+                  <column datatype='integer' name='Số học sinh thcs' ordinal='35' />
+                  <column datatype='integer' name='Số học sinh thpt' ordinal='36' />
+                  <column datatype='integer' name='Số bệnh viện' ordinal='37' />
+                  <column datatype='integer' name='Số trạm y tế' ordinal='38' />
+                  <column datatype='integer' name='Số bác sĩ' ordinal='39' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Luân chuyển hàng hóa'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Tableau Bold'>Phân bố số lượt luân chuyển khối lượng hàng hóa theo tỉnh</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (Data_final)' name='federated.1oh31oy19yjq3t12ybyji0t5067i' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1oh31oy19yjq3t12ybyji0t5067i'>
+            <column datatype='integer' name='[Khối lượng hàng hóa luân chuyển]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Năm]' role='dimension' type='ordinal' />
+            <column aggregation='CountD' datatype='string' name='[Tỉnh]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <semantic-values semantic-role='[State].[Name]'>
+                <semantic-value key='&quot;TP.Hồ Chí Minh&quot;' value='&quot;Thanh pho Ho Chi Minh&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[Tỉnh]' derivation='None' name='[none:Tỉnh:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Khối lượng hàng hóa luân chuyển]' derivation='Sum' name='[sum:Khối lượng hàng hóa luân chuyển:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Năm]' derivation='Year' name='[yr:Năm:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1oh31oy19yjq3t12ybyji0t5067i].[yr:Năm:ok]'>
+            <groupfilter function='member' level='[yr:Năm:ok]' member='2022' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1oh31oy19yjq3t12ybyji0t5067i].[yr:Năm:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1oh31oy19yjq3t12ybyji0t5067i].[Longitude (generated)]' field-type='quantitative' max='14625403.160760613' min='10669197.251881707' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1oh31oy19yjq3t12ybyji0t5067i].[Latitude (generated)]' field-type='quantitative' max='2884837.6791513823' min='599815.43420639297' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size' field='[federated.1oh31oy19yjq3t12ybyji0t5067i].[sum:Khối lượng hàng hóa luân chuyển:qk]' field-type='quantitative' max-size='1' min-size='0' type='centersize' />
+            <encoding attr='color' center='5617150000' field='[federated.1oh31oy19yjq3t12ybyji0t5067i].[sum:Khối lượng hàng hóa luân chuyển:qk]' palette='orange_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1oh31oy19yjq3t12ybyji0t5067i].[none:Tỉnh:nk]' />
+              <color column='[federated.1oh31oy19yjq3t12ybyji0t5067i].[sum:Khối lượng hàng hóa luân chuyển:qk]' />
+              <geometry column='[federated.1oh31oy19yjq3t12ybyji0t5067i].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1oh31oy19yjq3t12ybyji0t5067i].[Latitude (generated)]</rows>
+        <cols>[federated.1oh31oy19yjq3t12ybyji0t5067i].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{9BB90E91-633A-49AF-B289-122D53BF305D}' />
+    </worksheet>
+    <worksheet name='Tình hình phát triển giao thông vận tải'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (Data_final)' name='federated.1oh31oy19yjq3t12ybyji0t5067i' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1oh31oy19yjq3t12ybyji0t5067i'>
+            <column datatype='integer' name='[Khối lượng hàng hóa luân chuyển]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Khối lượng hàng hóa vận chuyển]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Miền]' role='dimension' type='nominal' />
+            <column datatype='datetime' name='[Năm]' role='dimension' type='ordinal' />
+            <column-instance column='[Miền]' derivation='None' name='[none:Miền:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Khối lượng hàng hóa luân chuyển]' derivation='Sum' name='[sum:Khối lượng hàng hóa luân chuyển:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Khối lượng hàng hóa vận chuyển]' derivation='Sum' name='[sum:Khối lượng hàng hóa vận chuyển:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Năm]' derivation='Year-Trunc' name='[tyr:Năm:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1oh31oy19yjq3t12ybyji0t5067i].[sum:Khối lượng hàng hóa vận chuyển:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.1oh31oy19yjq3t12ybyji0t5067i].[tyr:Năm:qk]' scope='cols' value='Năm' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1oh31oy19yjq3t12ybyji0t5067i].[sum:Khối lượng hàng hóa luân chuyển:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1oh31oy19yjq3t12ybyji0t5067i].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1oh31oy19yjq3t12ybyji0t5067i].[sum:Khối lượng hàng hóa vận chuyển:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1oh31oy19yjq3t12ybyji0t5067i].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.1oh31oy19yjq3t12ybyji0t5067i].[sum:Khối lượng hàng hóa luân chuyển:qk] + [federated.1oh31oy19yjq3t12ybyji0t5067i].[sum:Khối lượng hàng hóa vận chuyển:qk])</rows>
+        <cols>([federated.1oh31oy19yjq3t12ybyji0t5067i].[none:Miền:nk] * [federated.1oh31oy19yjq3t12ybyji0t5067i].[tyr:Năm:qk])</cols>
+      </table>
+      <simple-id uuid='{FEC8EC9E-F851-429C-905E-F1A548A0B80B}' />
+    </worksheet>
+    <worksheet name='Vận chuyển khách'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Tableau Bold'>Phân bố tỉ lệ lượt vận chuyển hành khách theo tỉnh</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (Data_final)' name='federated.1oh31oy19yjq3t12ybyji0t5067i' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1oh31oy19yjq3t12ybyji0t5067i'>
+            <column caption='Tỉ lệ vận chuyển hành khách' datatype='real' name='[Calculation_813744182608723968]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Dân số]/[Số lượt vận chuyển hành khách]' />
+            </column>
+            <column datatype='integer' name='[Dân số]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Năm]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Số lượt vận chuyển hành khách]' role='measure' type='quantitative' />
+            <column aggregation='CountD' datatype='string' name='[Tỉnh]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <semantic-values semantic-role='[State].[Name]'>
+                <semantic-value key='&quot;TP.Hồ Chí Minh&quot;' value='&quot;Thanh pho Ho Chi Minh&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[Tỉnh]' derivation='None' name='[none:Tỉnh:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_813744182608723968]' derivation='Sum' name='[sum:Calculation_813744182608723968:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Năm]' derivation='Year' name='[yr:Năm:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1oh31oy19yjq3t12ybyji0t5067i].[none:Tỉnh:nk]'>
+            <groupfilter function='level-members' level='[none:Tỉnh:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1oh31oy19yjq3t12ybyji0t5067i].[yr:Năm:ok]'>
+            <groupfilter function='member' level='[yr:Năm:ok]' member='2022' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1oh31oy19yjq3t12ybyji0t5067i].[none:Tỉnh:nk]</column>
+            <column>[federated.1oh31oy19yjq3t12ybyji0t5067i].[yr:Năm:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1oh31oy19yjq3t12ybyji0t5067i].[Longitude (generated)]' field-type='quantitative' max='13739473.397579566' min='9709534.3574296031' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1oh31oy19yjq3t12ybyji0t5067i].[Latitude (generated)]' field-type='quantitative' max='2974190.7707531713' min='646581.80281540193' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.1oh31oy19yjq3t12ybyji0t5067i].[none:Tỉnh:nk]' value='false' />
+            <format attr='break-on-special' field='[federated.1oh31oy19yjq3t12ybyji0t5067i].[none:Tỉnh:nk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.1oh31oy19yjq3t12ybyji0t5067i].[none:Tỉnh:nk]' value='false' />
+            <format attr='omit-on-special' field='[federated.1oh31oy19yjq3t12ybyji0t5067i].[Longitude (generated)]' value='false' />
+            <format attr='break-on-special' field='[federated.1oh31oy19yjq3t12ybyji0t5067i].[Longitude (generated)]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.1oh31oy19yjq3t12ybyji0t5067i].[Longitude (generated)]' value='false' />
+            <format attr='omit-on-special' field='[federated.1oh31oy19yjq3t12ybyji0t5067i].[Latitude (generated)]' value='false' />
+            <format attr='break-on-special' field='[federated.1oh31oy19yjq3t12ybyji0t5067i].[Latitude (generated)]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.1oh31oy19yjq3t12ybyji0t5067i].[Latitude (generated)]' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <text column='[federated.1oh31oy19yjq3t12ybyji0t5067i].[none:Tỉnh:nk]' />
+              <color column='[federated.1oh31oy19yjq3t12ybyji0t5067i].[sum:Calculation_813744182608723968:qk]' />
+              <geometry column='[federated.1oh31oy19yjq3t12ybyji0t5067i].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1oh31oy19yjq3t12ybyji0t5067i].[Latitude (generated)]</rows>
+        <cols>[federated.1oh31oy19yjq3t12ybyji0t5067i].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{4F41820C-0821-4DF3-BB2D-F1CDF2F92F14}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='37'>
+    <window class='worksheet' name='Vận chuyển khách'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.1oh31oy19yjq3t12ybyji0t5067i].[yr:Năm:ok]' type='filter' />
+            <card pane-specification-id='1' param='[federated.1oh31oy19yjq3t12ybyji0t5067i].[sum:Calculation_813744182608723968:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{E0F200FA-C977-4C98-93FE-2E0A87012534}' />
+    </window>
+    <window class='worksheet' name='Luân chuyển hàng hóa'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.1oh31oy19yjq3t12ybyji0t5067i].[yr:Năm:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1oh31oy19yjq3t12ybyji0t5067i].[sum:Khối lượng hàng hóa luân chuyển:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{37BFD1CA-46B6-4981-9D67-7F13BE54B414}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Tình hình phát triển giao thông vận tải'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1oh31oy19yjq3t12ybyji0t5067i].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7E02E1A3-A7F6-4789-93DD-6DE7EE9B0940}' />
+    </window>
+  </windows>
+</workbook>
