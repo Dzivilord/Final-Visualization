@@ -1,0 +1,8 @@
+Flask
+pandas
+openai
+python-dotenv
+gunicorn
+requests
+jsonify
+openpyxl
